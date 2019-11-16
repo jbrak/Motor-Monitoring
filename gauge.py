@@ -1,6 +1,6 @@
 import plotly.graph_objects as go
 
-value = 50
+value = 10
 
 def bar_color(v):
     if v <= 10 : return 'red'
