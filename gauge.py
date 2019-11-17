@@ -1,6 +1,7 @@
 import plotly.graph_objects as go
+from random import randrange
 
-value = 10
+value = randrange(61)
 
 def bar_color(v):
     if v <= 10 : return 'red'
